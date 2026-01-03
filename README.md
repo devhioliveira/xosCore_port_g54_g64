@@ -35,14 +35,14 @@
 - Lockscreen Wallpaper Fixed – credit: @devhioliveira10
 - Included OrangeFox (OFOX) – credit: @ussr_1674 (Soviet)
 - Removed HBM mode (not needed for IPS panels) - credit: @devhioliveira10
-- removed sar support to improve wifi performance – credit: @devhioliveira10
+- Removed sar support to improve wifi performance – credit: @devhioliveira10
+- Removed Blur - credit: @devhioliveira10
 
 ## ✨ Features
 
-- 🧩 System experience preserved as close as possible to the original XOS  
+- ⚡ **XOS Core build** with only essential components, removing heavy and unnecessary apps for better performance and stability
 - 🎮 Game Mode with Turbo Mode fully integrated  
 - 📦 Extras folder including useful modules and applications  
-- 📊 Dynamic Bar support  
 - 📷 2K camera recording support
 - ✅ Play Integrity fix  
 - 🧩 Pixel & property spoofing  
