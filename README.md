@@ -90,6 +90,8 @@
 - For best compatibility, make sure you are on **stock firmware V1TDS35H.83-20-5-6**.
 - A custom recovery is required (**TWRP / OrangeFox / PBRP**).
 
+</details>
+
 ---
 
 ### Flashing the Port via Recovery
