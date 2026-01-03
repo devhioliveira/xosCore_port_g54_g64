@@ -1,2 +1,152 @@
-# xosCore_port_g54_g64
-XOS Core (15.0.3.127) lightweight port for Motorola Moto G54 5G / Moto G64 5G (Cancunf), developed and maintained by DevHiOliveira.
+<h1 align="center">📱 XOS Core 15.0.3.127 Stable – Moto G54 5G - Moto G64 5G</h1>
+
+<p align="center">
+  <img src="banner.jpg" alt="XOS 15 Banner" />
+</p>
+
+<p align="center">
+  <b>Firmware Required:</b> V1TDS35H.83-20-5-6<br>
+  <b>Version:</b> 15.0.3.127 EU Stable<br>
+  <b>Base Device:</b> Infinix Note 40 5G<br>
+</p>
+
+---
+
+## ✨ Features & Improvements
+
+<details>
+<summary><b>Click to expand</b></summary>
+
+### ✔ What’s Working
+- Fingerprint sensor
+- Bluetooth
+- Wi-Fi
+- SIM card (calls and mobile data)
+- Mobile hotspot
+- Display brightness control
+- Audio (speaker and microphone)<br>
+<b>In short: all core features are fully functional.</b>
+
+### 🚀 Enhancements
+- Removed AOD (not needed for IPS panels)
+- Added Transsion Flagship (XOS) – credit: @nyello08
+- Flagship Animations Enabled – credit: @nyello08
+- Preferred Network 4G/5G Enabled – credit: @devhioliveira10 made the changes, and @Not_psyco discovered the solution and helped
+- Lockscreen Wallpaper Fixed – credit: @devhioliveira10
+- Included OrangeFox (OFOX) – credit: @ussr_1674 (Soviet)
+- Removed HBM mode (not needed for IPS panels) - credit: @devhioliveira10
+- removed sar support to improve wifi performance – credit: @devhioliveira10
+
+## ✨ Features
+
+- 🧩 System experience preserved as close as possible to the original XOS  
+- 🎮 Game Mode with Turbo Mode fully integrated  
+- 📦 Extras folder including useful modules and applications  
+- 📊 Dynamic Bar support  
+- 📷 2K camera recording support
+- ✅ Play Integrity fix  
+- 🧩 Pixel & property spoofing  
+- ⚙️ Per-app spoofing manager  
+- ☁️ Google Photos unlimited backup  
+- 🧰 Payload dumper integration  
+- 🎮 Unlock high-FPS modes in games  
+- 🧾 Modify application data files safely  
+
+- 🤖 **Infinix AI Features**
+  - **Folax Smart Touch**
+  - **Call Assistant** – real-time AI translation, automatic call summaries, and AI call answering
+  - **Social Assistant** – two-way translation and call summaries for social scenarios
+  - **Writing Assistant** – rewrite text, fix spelling and grammar, generate summaries, and perform research
+  - **Recording Summary** – transcribe recordings into text and generate summaries
+  - **AI Visual Enhancer** – intelligently enhances low-resolution videos for a clearer viewing experience
+
+- ⚡ Highly optimized system with excellent performance and stability
+
+</details>
+
+---
+
+## 🐞 Known Bugs
+- DT2W / R2W / ST2W *(Moto side)*
+
+---
+
+## 📖 Notes
+
+<details>
+  <summary><b>Click to expand</b></summary>
+
+- Always back up your data before flashing. If something goes wrong, it’s better to lose time than lose data — corporate wisdom.
+
+- Many preinstalled apps were removed. This build is a **core/minimal system**, containing only essential applications.  
+  You are free to choose what you want to install, as all official Infinix apps are available in the **Extras/Apps Infinix** folder on Google Drive.
+
+- Google Play Store comes **preinstalled by default**.
+
+- To ensure the **integrity system works properly**, please download **KaoriosToolbox.apk** from the **Extras** folder on Google Drive.  
+  With Kaorios Toolbox, you can customize several system options — explore at your own risk (and enjoyment).
+
+</details>
+
+---
+
+## 📥 Installation Guide
+
+<details>
+<summary><b>Port Flashing</b></summary>
+
+### Prerequisites
+- For best compatibility, make sure you are on **stock firmware V1TDS35H.83-20-5-6**.
+- A custom recovery is required (**TWRP / OrangeFox / PBRP**).
+
+---
+
+### Flashing the Port via Recovery
+
+1. Download the ROM ZIP file.
+2. Copy the XOS ZIP to your **SD Card** or **OTG**.
+3. Boot into **TWRP / OrangeFox / PBRP**  
+   (If you don’t have a custom recovery installed, install one before proceeding.)
+4. Select the ZIP file and **swipe to flash**.
+5. After installation, a **Format Data** is recommended.  
+   - Not mandatory, but **required if the system does not boot**.
+
+---
+
+### Flashing the Port via ADB Sideload
+
+1. Keep the ZIP file on the device/computer that will run the ADB command.
+2. Run the command:
+```bash
+adb sideload XOS.zip
+```
+(Replace `XOS.zip` with the correct path to the file.)
+3. Once flashing is complete, a **Format Data** is recommended.  
+- Not mandatory, but **required if the system does not boot**.
+
+---
+
+## 📡 Credits
+Huge thanks to all contributors and supporters:
+
+- @G54USERY (EzerMod) – For starting this project  
+- @devhioliveira10 (DevHiOliveira) – Performed multiple bug fixes and made XOS stable and solid  
+- @ussr_1674 (Soviet) – Creator of the OrangeFox custom recovery for the G54/G64  
+- @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations  
+
+❤️ And to the community that helped make XOS a stable and reliable port.
+---
+
+## 💬 Support
+For issues, discussions, or reports:
+Talk to us at https://t.me/devhioliveirasupport
+Secondary support: https://t.me/ezersuporte
+
+---
+
+## 📥 Download
+
+### 🔗 ROM Download (XOS 15.0.3.127 EU Stable)
+➡️ **[Click here to download](https://drive.google.com/file/d/1bzB5sr8s-12HPrcP8CZdqVENgrTT27VS/view?usp=sharing)**
+
+---
