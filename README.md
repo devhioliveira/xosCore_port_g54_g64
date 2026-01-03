@@ -133,7 +133,6 @@ Huge thanks to all contributors and supporters:
 ## 💬 Support
 For issues, discussions, or reports:
 Talk to us at https://t.me/devhioliveirasupport
-Secondary support: https://t.me/ezersuporte
 
 ---
 
