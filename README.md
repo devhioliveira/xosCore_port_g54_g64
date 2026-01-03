@@ -51,15 +51,6 @@
 - 🧰 Payload dumper integration  
 - 🎮 Unlock high-FPS modes in games  
 - 🧾 Modify application data files safely  
-
-- 🤖 **Infinix AI Features**
-  - **Folax Smart Touch**
-  - **Call Assistant** – real-time AI translation, automatic call summaries, and AI call answering
-  - **Social Assistant** – two-way translation and call summaries for social scenarios
-  - **Writing Assistant** – rewrite text, fix spelling and grammar, generate summaries, and perform research
-  - **Recording Summary** – transcribe recordings into text and generate summaries
-  - **AI Visual Enhancer** – intelligently enhances low-resolution videos for a clearer viewing experience
-
 - ⚡ Highly optimized system with excellent performance and stability
 
 </details>
