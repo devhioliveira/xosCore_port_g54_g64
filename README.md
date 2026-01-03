@@ -29,8 +29,8 @@
 
 ### 🚀 Enhancements
 - Removed AOD (not needed for IPS panels)
-- Added Transsion Flagship (XOS) – credit: @nyello08
-- Flagship Animations Enabled – credit: @nyello08
+- Added Transsion Flagship (XOS) – credit: @EzerMod
+- Flagship Animations Enabled – credit: @EzerMod
 - Preferred Network 4G/5G Enabled – credit: @devhioliveira10 made the changes, and @Not_psyco discovered the solution and helped
 - Lockscreen Wallpaper Fixed – credit: @devhioliveira10
 - Included OrangeFox (OFOX) – credit: @ussr_1674 (Soviet)
@@ -122,7 +122,7 @@ adb sideload XOS.zip
 ## 📡 Credits
 Huge thanks to all contributors and supporters:
 
-- @G54USERY (EzerMod) – For starting this project  
+- @EzerMod – For starting this project  
 - @devhioliveira10 (DevHiOliveira) – Performed multiple bug fixes and made XOS stable and solid  
 - @ussr_1674 (Soviet) – Creator of the OrangeFox custom recovery for the G54/G64  
 - @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations  
