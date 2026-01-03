@@ -90,8 +90,6 @@
 - For best compatibility, make sure you are on **stock firmware V1TDS35H.83-20-5-6**.
 - A custom recovery is required (**TWRP / OrangeFox / PBRP**).
 
-</details>
-
 ---
 
 ### Flashing the Port via Recovery
@@ -116,6 +114,8 @@ adb sideload XOS.zip
 (Replace `XOS.zip` with the correct path to the file.)
 3. Once flashing is complete, a **Format Data** is recommended.  
 - Not mandatory, but **required if the system does not boot**.
+
+</details>
 
 ---
 
