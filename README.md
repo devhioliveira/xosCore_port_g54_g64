@@ -72,6 +72,10 @@
 - Many preinstalled apps were removed. This build is a **core/minimal system**, containing only essential applications.  
   You are free to choose what you want to install, as all official Infinix apps are available in the **Extras/Apps Infinix** folder on Google Drive.
 
+- The default Infinix camera is available in the Extras folder on Google Drive.
+Both HIOS/XOS stock cameras have lower image quality and are unable to record at 60 FPS due to compatibility limitations.
+For the best possible quality and proper 60 FPS recording, it is recommended to use GCam.
+
 - Google Play Store comes **preinstalled by default**.
 
 - To ensure the **integrity system works properly**, please download **KaoriosToolbox.apk** from the **Extras** folder on Google Drive.  
