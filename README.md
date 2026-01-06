@@ -146,5 +146,6 @@ https://t.me/MotorolaMotoG54PortsBR/
 
 ### 🔗 ROM Download (XOS Core 15.0.3.127 EU Stable)
 ➡️ **[Click here to download](https://drive.google.com/file/d/1NKk3S6x5oNxG_sGJ-OfSEA2q8fjv8Mvc/view?usp=drive_link)**
-
+---
+➡️ **[Extras Folder](https://drive.google.com/drive/folders/1LqG-oSlsYm3cQ1vj0d_rR9cssBiPocjl)**
 ---
