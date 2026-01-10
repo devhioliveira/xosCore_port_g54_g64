@@ -90,35 +90,43 @@ For the best possible quality and proper 60 FPS recording, it is recommended to 
 <details>
 <summary><b>Port Flashing</b></summary>
 
-### Prerequisites
-- For best compatibility, make sure you are on **stock firmware V1TDS35H.83-20-5-6**.
-- A custom recovery is required (**TWRP / OrangeFox / PBRP**).
+### Method 1: Recovery Installation (Recommended)
+
+> ⚠️ **IMPORTANT:** This port **REQUIRES a custom recovery**.  
+> Stock recovery **will NOT work**. If you are not using a custom recovery, **do not even try**.
+
+You must install this port using **one of the supported custom recoveries**:
+- **[TWRP](https://drive.google.com/file/d/1bze5K3uk-C6TAVPXHJ0VLOoNIYIx-OLs/view?usp=drive_link)**
+- **[OrangeFox (OFOX)](https://drive.google.com/file/d/1guAN3IIYP-t-NAWYXJnsPundINDVaWDf/view?usp=drivesdk)**
+- **[PitchBlack Recovery (PBRP)](https://drive.google.com/file/d/1XEPGRTUcHspBFpv5jv2xCs8_LtKhH9L0/view?usp=drivesdk)**
+
+Installation steps:
+
+1. Boot your device into **custom recovery mode** (TWRP / OFOX / PBRP).
+2. Perform a **Format Data** to ensure a clean installation.
+3. Reboot back into **custom recovery mode**.
+4. Copy the **XOS ZIP** to your internal storage.
+5. Go to **Install**, select the ZIP file, and **swipe to confirm** the flash.
+
+If you are unable to copy the file to internal storage, you can alternatively use:
+- **USB OTG**
+- **MicroSD card** (if supported by your device)
 
 ---
 
-### Flashing the Port via Recovery
+### Method 2: ADB Sideload (Custom Recovery Required)
 
-1. Download the ROM ZIP file.
-2. Copy the XOS ZIP to your **SD Card** or **OTG**.
-3. Boot into **TWRP / OrangeFox / PBRP**  
-   (If you don’t have a custom recovery installed, install one before proceeding.)
-4. Select the ZIP file and **swipe to flash**.
-5. After installation, a **Format Data** is recommended.  
-   - Not mandatory, but **required if the system does not boot**.
+ADB Sideload is also supported, but **still requires a custom recovery**:
 
----
-
-### Flashing the Port via ADB Sideload
-
-1. Keep the ZIP file on the device/computer that will run the ADB command.
-2. Run the command:
-```bash
-adb sideload XOS.zip
-```
-(Replace `XOS.zip` with the correct path to the file.)
-3. Once flashing is complete, a **Format Data** is recommended.  
-- Not mandatory, but **required if the system does not boot**.
-
+1. Boot your device into **custom recovery mode**.
+2. Navigate to **ADB Sideload**  
+   > The location of this option may vary depending on the recovery.  
+   > In **TWRP**, go to **Advanced → ADB Sideload**.
+3. On your PC terminal, run:
+   ```bash
+   adb sideload <drag and drop the XOS ZIP here>
+   ```
+4. Wait for the flashing process to complete, then reboot the system.
 </details>
 
 ---
@@ -128,9 +136,10 @@ Huge thanks to all contributors and supporters:
 
 - @EzerMod – For starting this project  
 - @devhioliveira10 (DevHiOliveira) – Performed multiple bug fixes and made XOS stable and solid  
-- @ussr_1674 (Soviet) – Creator of the OrangeFox custom recovery for the G54/G64  
+- @ussr_1674 (Soviet) – I will update the XOS Core post.  
 - @nyello08 – Added Transsion Flagship (XOS) features and enabled flagship animations
-- @Kousei_jp - Thank you for providing the Kaorios Toolbox. 
+- @Kousei_jp - Thank you for providing the Kaorios Toolbox.
+- @ussr_1674 – Thanks you for providing the custom recoveries
 
 ❤️ And to the community that helped make XOS a stable and reliable port.
 ---
